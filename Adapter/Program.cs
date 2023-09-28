@@ -27,16 +27,16 @@ public class PrimeVideoCaptions : CaptionsJson
     }
 }
 
-public class HBOMaxCaptionsJsonAdapter : HBOMaxCaptions, CaptionsJson
+public class HBOMaxCaptionsJsonAdapter : CaptionsJson
 {
     public HBOMaxCaptionsJsonAdapter(string XML)
     {
-        this.Minions
+        
     }
-    XmlDocument BreakingBadXML = new XmlDocument();
-    BreakingBadXML.LoadXml(BreakingBad);
+    //XmlDocument BreakingBadXML = new XmlDocument();
+    //BreakingBadXML.LoadXml(BreakingBad);
 
-    string BreakingBadJSON = JsonConvert.SerializeXmlNode(BreakingBadXML);
+    //string BreakingBadJSON = JsonConvert.SerializeXmlNode(BreakingBadXML);
     public void getJson()
     {
 
