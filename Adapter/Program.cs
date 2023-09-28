@@ -29,7 +29,7 @@ public class PrimeVideoCaptions : CaptionsJson
 
 public class HBOMaxCaptionsJsonAdapter : CaptionsJson
 {
-    public HBOMaxCaptionsJsonAdapter(string XML)
+    public HBOMaxCaptionsJsonAdapter(int id)
     {
         
     }
@@ -82,6 +82,7 @@ public class MoviePrime
 
 public class MovieHBO
 {
+    public int id { get; set; }
     public string name { get; set; }
     public string description { get; set; }
     public DateOnly datePublished { get; set; }
