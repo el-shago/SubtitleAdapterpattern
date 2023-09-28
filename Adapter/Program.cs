@@ -96,7 +96,31 @@ public class PrimeVideo
 {
     public static void main()
     {
+        Console.WriteLine("Bienvenido a PrimeVideo!, Selecciona una de las siguientes opciones\n");
+        Console.WriteLine("1. Minions");
+        Console.WriteLine("2. OnePiece");
+        Console.WriteLine("3. Breaking Bad");
+        Console.WriteLine("4. Rango");
+        
+        int opcion = int.Parse(Console.ReadLine());
 
-        int opcion = 
+        switch (opcion)
+        {
+            case 1:
+                Console.WriteLine();
+                break;
+
+            case 2:
+                Console.WriteLine();
+                break;
+
+            case 3:
+                Console.WriteLine();
+                break;
+
+            case 4:
+                Console.WriteLine();
+                break;
+        }
     }
 }
