@@ -52,6 +52,7 @@ public interface CaptionsJson
 }
 public interface Movie
 {
+    public int id { get; set; }
     public string name { get; set; }
     public string description { get; set; }
     public DateOnly datePublished { get; set; }
@@ -63,15 +64,17 @@ public interface Movie
 }
 public class MoviePrime
 {
+    public int id { get; set; }
     public string name { get; set; }
     public string description { get; set; }
     public DateOnly datePublished { get; set; }
 
-    public MoviePrime (string name, string description, DateOnly datePublished)
+    public MoviePrime (string name, string description, DateOnly datePublished, int id)
     {
         this.name = name;
         this.description = description;
         this.datePublished = datePublished;
+        this.id = id;
     }
 
     public void playMovie()
@@ -87,8 +90,9 @@ public class MovieHBO
     public string description { get; set; }
     public DateOnly datePublished { get; set; }
 
-    public MovieHBO(string name, string description, DateOnly datePublished)
+    public MovieHBO(string name, string description, DateOnly datePublished, int id)
     {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.datePublished = datePublished;
