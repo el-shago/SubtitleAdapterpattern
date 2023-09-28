@@ -12,7 +12,7 @@ public class HBOMaxCaptions
     //public string Rango = "<?xml version="1.0" encoding="UTF-8"?> <subtitle>\r\n  <index>1</index>\r\n  <start>00:01:16,869</start>\r\n  <end>00:01:20,037</end>\r\n  <text>We are gathered here today to immortalize in song</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>2</index>\r\n  <start>00:01:20,164</start>\r\n  <end>00:01:23,624</end>\r\n  <text>the life and untimely death of a great legend.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>3</index>\r\n  <start>00:01:23,709</start>\r\n  <end>00:01:26,043</end>\r\n  <text>- Rango.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>4</index>\r\n  <start>00:01:26,170</start>\r\n  <end>00:01:30,047</end>\r\n  <text>So sit back, relax, and enjoy your low-calorie popcorn and assorted confections</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>5</index>\r\n  <start>00:01:30,174</start>\r\n  <end>00:01:34,969</end>\r\n  <text>while we tell you the strange and bewildering tale of a hero</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>6</index>\r\n  <start>00:01:35,053</start>\r\n  <end>00:01:38,514</end>\r\n  <text>who has yet to enter his own story.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>7</index>\r\n  <start>00:01:53,197</start>\r\n  <end>00:01:55,907</end>\r\n  <text>Crunchy, creamy, cookie, candy, cupcake.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>8</index>\r\n  <start>00:01:57,242</start>\r\n  <end>00:01:59,410</end>\r\n  <text>Okay, everybody, let's take it from the top.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>9</index>\r\n  <start>00:02:00,746</start>\r\n  <end>00:02:04,248</end>\r\n  <text>The stage is set, the night moist with apprehension.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>10</index>\r\n  <start>00:02:04,333</start>\r\n  <end>00:02:08,336</end>\r\n  <text>Alone in her chamber, the princess prepares to take her own life.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>11</index>\r\n  <start>00:02:09,046</start>\r\n  <end>00:02:12,924</end>\r\n  <text>\"It is far better to nourish worms than to live without love.\"</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>12</index>\r\n  <start>00:02:13,008</start>\r\n  <end>00:02:14,926</end>\r\n  <text>She reaches for the poisoned chalice.</text>\r\n</subtitle>\r\n<subtitle>\r\n  <index>13</index>\r\n  <start>00:02:15,052</start>\r\n  <end>00:02:18,387</end>\r\n  <text>Meanwhile, the wicked Malvolio plots his ascension to the throne</text>\r\n</subtitle>\r\n";
 
 
-    public void getCaptions()
+    public void getContent(int id)
     {
 
     }
@@ -21,7 +21,7 @@ public class HBOMaxCaptions
 public class PrimeVideoCaptions : CaptionsJson
 {
 
-    public void getJson()
+    public void getJson(int id)
     {
 
     }
@@ -37,7 +37,7 @@ public class HBOMaxCaptionsJsonAdapter : CaptionsJson
     //BreakingBadXML.LoadXml(BreakingBad);
 
     //string BreakingBadJSON = JsonConvert.SerializeXmlNode(BreakingBadXML);
-    public void getJson()
+    public void getJson(int id)
     {
 
     }
@@ -45,7 +45,7 @@ public class HBOMaxCaptionsJsonAdapter : CaptionsJson
 
 public interface CaptionsJson
 {
-    public void getJson()
+    public void getJson(int id)
     {
 
     }
@@ -114,18 +114,22 @@ public class PrimeVideo
         switch (opcion)
         {
             case 1:
+                id = 1;
                 Console.WriteLine();
                 break;
 
             case 2:
+                id = 2;
                 Console.WriteLine();
                 break;
 
             case 3:
+                id = 3;
                 Console.WriteLine();
                 break;
 
             case 4:
+                id = 4;
                 Console.WriteLine();
                 break;
         }
