@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 public class HBOMaxCaptions
 {
-    public string BreakingBad = @"<?xml version=""1.0"" encoding=""UTF-8""?> <subtitle>
+    public string BreakingBad =@"<?xml version=""1.0"" encoding=""UTF-8""?> <subtitle>
   <index>130</index>
   <start>00:09:27,644</start>
   <end>00:09:29,712</end>
