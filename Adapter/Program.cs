@@ -112,7 +112,7 @@ public class HBOMaxCaptions
   <text>I am the one who knocks.</text>
 </subtitle>";
 
-  public string Minions = @"<?xml version=""1.0"" encoding=""UTF-8""?> <subtitle>
+    public string Minions = @"<?xml version=""1.0"" encoding=""UTF-8""?> <subtitle>
   <index>2</index>
   <start>00:01:43,428</start>
   <end>00:01:45,234</end>
@@ -129,7 +129,74 @@ public class HBOMaxCaptions
   <start>00:01:49,843</start>
   <end>00:01:51,547</end>
   <text>They go by many names.</text>
+</subtitle>
+<subtitle>
+  <index>5</index>
+  <start>00:01:51,572</start>
+  <end>00:01:55,177</end>
+  <text>Dave, Carl, Paul, Mike.</text>
+</subtitle>
+<subtitle>
+  <index>6</index>
+  <start>00:01:56,597</start>
+  <end>00:01:58,719</end>
+  <text>Oh, that one is Norbert.</text>
+</subtitle>
+<subtitle>
+  <index>7</index>
+  <start>00:01:59,101</start>
+  <end>00:02:00,929</end>
+  <text>He's an idiot.</text>
+</subtitle>
+<subtitle>
+  <index>8</index>
+  <start>00:02:00,954</start>
+  <end>00:02:04,884</end>
+  <text>They're all different. But they all share the same goal.</text>
+</subtitle>
+<subtitle>
+  <index>9</index>
+  <start>00:02:04,909</start>
+  <end>00:02:08,212</end>
+  <text>To serve the most despicable master they could find.</text>
+</subtitle>
+<subtitle>
+  <index>10</index>
+  <start>00:02:08,237</start>
+  <end>00:02:10,097</end>
+  <text>BOSS!</text>
+</subtitle>
+<subtitle>
+  <index>11</index>
+  <start>00:02:14,618</start>
+  <end>00:02:19,478</end>
+  <text>Making their master happy was the tribe's very reason for existence.</text>
+</subtitle>
+<subtitle>
+  <index>12</index>
+  <start>00:02:19,706</start>
+  <end>00:02:23,759</end>
+  <text>But that's not to say that they didn’t have other passions.</text>
+</subtitle>
+<subtitle>
+  <index>13</index>
+  <start>00:02:24,033</start>
+  <end>00:02:26,834</end>
+  <text>- Look. It's a banana.</text>
+</subtitle>
+<subtitle>
+  <index>14</index>
+  <start>00:02:28,365</start>
+  <end>00:02:30,243</end>
+  <text>- Move over.</text>
+</subtitle>
+<subtitle>
+  <index>15</index>
+  <start>00:02:30,268</start>
+  <end>00:02:32,238</end>
+  <text>It's a banana. Ha-hah-ha.</text>
 </subtitle>";
+
 
     public string OnePiece = @"<?xml version=""1.0"" encoding=""UTF-8""?> <subtitle>
   <index>1</index>
@@ -304,7 +371,7 @@ public class HBOMaxCaptions
     {
         switch (id)
         {
-            case 1: //Minions
+            case 1:
                 return Minions;
             case 2:
                 return OnePiece;
