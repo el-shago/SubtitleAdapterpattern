@@ -1,0 +1,17 @@
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Captions
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Captions.deps.json
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Captions.runtimeconfig.json
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Captions.dll
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Captions.pdb
+/Users/maumd/Projects/Captions/Captions/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.csproj.AssemblyReference.cache
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.AssemblyInfoInputs.cache
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.AssemblyInfo.cs
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.csproj.CoreCompileInputs.cache
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.csproj.CopyComplete
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.dll
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/refint/Captions.dll
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.pdb
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/Captions.genruntimeconfig.cache
+/Users/maumd/Projects/Captions/Captions/obj/Debug/net7.0/ref/Captions.dll
