@@ -13,9 +13,11 @@
   <ItemGroup>
     <None Remove="Movie\" />
     <None Remove="Captions\" />
+    <None Remove="JsonToText\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Movie\" />
     <Folder Include="Captions\" />
+    <Folder Include="JsonToText\" />
   </ItemGroup>
 </Project>

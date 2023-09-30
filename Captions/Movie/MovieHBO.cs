@@ -22,7 +22,9 @@ namespace Captions
         {
             Console.WriteLine("Reproduciendo pelicula: " + Name);
             Console.WriteLine("Descripcion: " + Description);
-            Console.WriteLine("Captions " + CaptionsJson.GetJson());
+
+            var captions = CaptionsJson.GetJson();
+            var captionsStr = MergeCaptionTexts.MergeCaptions(captions);
         }
     }
 }
